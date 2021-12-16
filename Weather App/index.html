@@ -1,0 +1,43 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Weather app</title>
+</head>
+
+<body>
+    <div class="container my-3 mx-auto">
+        <h1 class="text-muted text-center my-4">Ninja Weather</h1>
+
+        <form class="change-location my-4 text-center text-muted" autocomplete="off">
+            <label for="city">Enter a location for weather information</label><br><br>
+            <input type="text" name="city" class="form-control p-2">
+        </form>
+
+        <div class="card shadow-lg rounded">
+            <img src="https://via.placeholder.com/400x300" class="time card-img-top">
+            <div class="icon bg-light mx-auto text-center">
+                <img src="" alt="">
+            </div>
+            <div class="text-muted text-uppercase text-center details">
+                <h5 class="my-3">City name</h5>
+                <div class="my-3">Weather condition</div>
+                <div class="display-4 my-4">
+                    <span>temp</span>
+                    <span>&deg;C</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="./assets/JS/forecast.js"></script>
+    <script src="./assets/JS/main.js"></script>
+</body>
+
+</html>
